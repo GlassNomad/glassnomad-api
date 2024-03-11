@@ -12,4 +12,8 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GlassNomad-Api.Domain\GlassNomad-Api.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
