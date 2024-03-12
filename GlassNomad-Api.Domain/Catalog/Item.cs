@@ -41,3 +41,8 @@ public Item(string name, string description, string brand, decimal price)
     Brand = brand;
     Price = price;
 }
+
+public void AddRating(Rating rating)
+{
+    this.Ratings.Add(rating);
+}
