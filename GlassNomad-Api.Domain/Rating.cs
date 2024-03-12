@@ -1,6 +1,6 @@
 
 
-namespace Glass.Nomad.Domain.Catalog;
+namespace GlassNomad-Api.Domain.Catalog;
 {
 public class Rating
 {
