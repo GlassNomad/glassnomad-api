@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc; 
-using GlassNomad_Api.Domain.Catalog;
+using GlassNomad_Api.Api.Domain.Catalog;
 
 
 namespace GlassNomad_Api.Api.Controllers
