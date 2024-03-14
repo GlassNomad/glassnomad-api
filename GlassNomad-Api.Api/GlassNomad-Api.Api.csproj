@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\GlassNomad-Api.Domain\GlassNomad-Api.Domain.csproj" />
+    <ProjectReference Include="..\GlassNomad.Data\GlassNomad.Data.csproj" />
   </ItemGroup>
 
 </Project>
