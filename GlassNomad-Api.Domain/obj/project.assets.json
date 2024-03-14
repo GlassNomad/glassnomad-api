@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/Users/rodwanmohamed/.nuget/packages/": {}
+    "/Users/noranawad/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rodwanmohamed/Documents/GlassNomadDoc/glassnomad-api/glassnomad-api/GlassNomad-Api.Domain/GlassNomad-Api.Domain.csproj",
+      "projectUniqueName": "/Users/noranawad/Documents/GitHub/glassnomad-api/GlassNomad-Api.Domain/GlassNomad-Api.Domain.csproj",
       "projectName": "GlassNomad-Api.Domain",
-      "projectPath": "/Users/rodwanmohamed/Documents/GlassNomadDoc/glassnomad-api/glassnomad-api/GlassNomad-Api.Domain/GlassNomad-Api.Domain.csproj",
-      "packagesPath": "/Users/rodwanmohamed/.nuget/packages/",
-      "outputPath": "/Users/rodwanmohamed/Documents/GlassNomadDoc/glassnomad-api/glassnomad-api/GlassNomad-Api.Domain/obj/",
+      "projectPath": "/Users/noranawad/Documents/GitHub/glassnomad-api/GlassNomad-Api.Domain/GlassNomad-Api.Domain.csproj",
+      "packagesPath": "/Users/noranawad/.nuget/packages/",
+      "outputPath": "/Users/noranawad/Documents/GitHub/glassnomad-api/GlassNomad-Api.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/rodwanmohamed/.nuget/NuGet/NuGet.Config"
+        "/Users/noranawad/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -38,11 +38,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -64,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
