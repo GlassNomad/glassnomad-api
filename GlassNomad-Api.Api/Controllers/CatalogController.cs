@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc; 
 using GlassNomad_Api.Api.Domain.Catalog;
-using GlassNomad.Data; 
+using GlassNomad.Data;
+using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 
 namespace GlassNomad_Api.Api.Controllers
 {
@@ -67,9 +68,17 @@ namespace GlassNomad_Api.Api.Controllers
         }
 
         [HttpDelete("{id:int}")]
-        public IActionResult Delete(int id)
+        public IActionResult DeleteItem(int id)
         {
-            return NoContent();
+            var item = _db.Items.Find(id);
+            if (item == null)
+            {
+                return NotFound();
+            }
+            _db.Items.Remove(item);
+            _db.SaveChanges();
+
+            return Ok();
         }
 
     }
