@@ -50,8 +50,19 @@ namespace GlassNomad_Api.Api.Controllers
             return Ok(item);
         }
         [HttpPut("{id:int}")]
-        public IActionResult Put(int id, Item item)
+        public IActionResult PutItem(int id, [FromBody] Item item)
         {
+            if (id == item.Id)
+            {
+                return BadRequest();
+            }
+            if (_db.Items.Find(id) == null)
+        {
+            return NotFound();
+        }
+        _db.Entry(item).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+        _db.SaveChanges();
+
             return NoContent();
         }
 
