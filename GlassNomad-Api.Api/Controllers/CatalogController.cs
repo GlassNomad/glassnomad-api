@@ -32,6 +32,8 @@ namespace GlassNomad_Api.Api.Controllers
         [HttpPost]
         public IActionResult Post(Item item)
         {
+            _db.Items.Add(item);
+            _db.SaveChanges();
             return Created("/catalog/42",item);
         }
         [HttpPost("{id:int}/ratings")]
