@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "/Users/noranawad/Documents/GitHub/glassnomad-api/GlassNomad-Api.Api/GlassNomad-Api.Api.csproj",
-        "projectName": "GlassNomad-Api.Api",
+        "projectName": "GlassNomad.Api",
         "projectPath": "/Users/noranawad/Documents/GitHub/glassnomad-api/GlassNomad-Api.Api/GlassNomad-Api.Api.csproj",
         "packagesPath": "/Users/noranawad/.nuget/packages/",
         "outputPath": "/Users/noranawad/Documents/GitHub/glassnomad-api/GlassNomad-Api.Api/obj/",
@@ -48,6 +48,12 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
