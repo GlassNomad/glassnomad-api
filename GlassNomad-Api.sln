@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlassNomad-Api.Domain", "GlassNomad-Api.Domain\GlassNomad-Api.Domain.csproj", "{E827C36D-7001-4522-8144-D0B6CB99708E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlassNomad-Api.Api", "GlassNomad-Api.Api\GlassNomad-Api.Api.csproj", "{E757F3BE-70AB-48CD-AA22-253FD1494A55}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlassNomad-Api.Api", "GlassNomad-Api.Api\GlassNomad.Api.csproj", "{E757F3BE-70AB-48CD-AA22-253FD1494A55}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlassNomad.Data", "GlassNomad.Data\GlassNomad.Data.csproj", "{00C493FD-2C36-4EF6-A2B1-A95CF3B9EF90}"
 EndProject
