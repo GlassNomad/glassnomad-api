@@ -1,6 +1,7 @@
  
-   using GlassNomad.Domain.Catalog; 
-   namespace GlassNomad.Domain.Orders 
+ 
+using GlassNomad_Api.Api.Domain.Catalog;
+namespace GlassNomad.Domain.Orders 
    { 
     public class OrderItem 
     { 
