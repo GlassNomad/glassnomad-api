@@ -47,3 +47,4 @@ namespace GlassNomad_Api.Api.Domain.Catalog
         }
     }
 }
+
