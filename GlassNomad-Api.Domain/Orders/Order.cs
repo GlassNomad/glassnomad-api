@@ -1,5 +1,6 @@
 using System.Collections.Generic; 
-using System.Linq; 
+using System.Linq;
+using GlassNomad.Domain.Orders;
 
 namespace Glassnomad.Domain.Orders 
 { 
@@ -10,6 +11,7 @@ public class Order
     public DateTime CreatedDate { get; set ; } 
     public decimal TotalPrice => Items.Sum(i => i.Price); 
     }
+}
 
    
   

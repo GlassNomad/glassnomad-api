@@ -1,4 +1,5 @@
 ﻿
+using Glassnomad.Domain.Orders;
 using GlassNomad_Api.Api.Domain.Catalog;
 using Microsoft.EntityFrameworkCore; 
 
@@ -10,6 +11,8 @@ namespace GlassNomad.Data
            : base( options) 
 {}
 public DbSet<Item> Items { get; set; }
+
+public DbSet<Order> Orders {get ; set;}
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
